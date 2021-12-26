@@ -1,0 +1,75 @@
+#title {
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 10px;
+    color: whitesmoke;
+}
+
+body {
+    background-color: #1c1d1f;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+
+}
+
+.container {
+    background-color: pink;
+    height: 450px;
+    width: 500px;
+    padding-left: 200px;
+    padding-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+input[type=text],
+#address {
+    width: 60%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 3px solid #ccc;
+    margin-top: 10px;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus {
+    border: 3px solid rgba(119, 165, 250, 0.795);
+    box-shadow: 10px 10px 5px rgb(138, 173, 196)
+}
+
+/* label{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    } */
+/* #address {
+        height: 50px;
+        width: 290px;
+        border-radius: 10px;
+        margin-top: 10px;
+        outline: none;
+        border: 3px solid #ccc;
+      } */
+
+#address:focus {
+    border: 3px solid rgba(119, 165, 250, 0.795);
+    box-shadow: 10px 10px 5px rgb(138, 173, 196)
+}
+
+button {
+    background-color: #2386c9;
+    color: whitesmoke;
+    padding: 12px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(52, 139, 221, 0.795);
+}
