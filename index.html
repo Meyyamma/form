@@ -1,34 +1,42 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Form</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-    </head>
-    <body>
-        <div id="title"> <strong> REGISTRATION FORM </strong></div>
-        <form class="container">
-        
-            <label id="fname">  FirstName </label> <br>
-            <input  type="text" placeholder="Enter your FirstName"><br>
-            <label id="lname"> LastName </label>  <br>
-            <input  type="text" placeholder="Enter your LastName">  <br>
-        
-            <label> Gender </label> <br>
-            <input type="radio" id="male" name="select_gender" value="Male">
-            <label for="male"> Male </label><br>
-            <input type="radio" id="female" name="select_gender" value="Female">
-            <label for="female"> Female</label>  <br> 
-        
-           <label> Address </label><br>
-           <textarea id="address" name="address" placeholder="Enter your Address" ></textarea><br>
-        
-            <label id="contact"> Contact Number</label>  <br>
-            <input type="text" placeholder="Enter your Phone Number">  <br>
-            <br>
-        <button value="submit"> Submit </button>
-        <button value="reset"> Reset </button>
-        </div>
+  <head>
+    <title>Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <div id="title">registration form</div>
+    <form class="container">
+      <label class="flex-container">
+        First Name
+        <input type="text" />
+      </label>
+      <label class="flex-container">
+        Last Name
+        <input type="text" />
+      </label>
+
+      <div class="flex-container">
+        <label> Gender </label>
+        <input type="radio" id="male" name="select_gender" value="Male" />
+        <label for="male"> Male </label>
+        <input type="radio" id="female" name="select_gender" value="Female" />
+        <label for="female"> Female</label>
+      </div>
+
+      <div class="address">
+        <label> Address </label>
+        <textarea id="address" name="address"></textarea>
+      </div>
+
+      <div class="contact">
+        <label id="contact"> Contact Number</label>
+        <input type="text" />
+      </div>
+
+      <button value="submit" class="btn">Reset</button>
+      <button value="reset" class="btn green">Submit</button>
     </form>
-    </body>
+  </body>
 </html>

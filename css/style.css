@@ -1,4 +1,4 @@
-#title {
+/* #title {
     font-size: xx-large;
     text-align: center;
     padding-top: 10px;
@@ -42,34 +42,52 @@ input[type=text]:focus {
     box-shadow: 10px 10px 5px rgb(138, 173, 196)
 }
 
-/* label{
-        margin-top: 20px;
-        margin-bottom: 20px;
-    } */
-/* #address {
-        height: 50px;
-        width: 290px;
-        border-radius: 10px;
-        margin-top: 10px;
-        outline: none;
-        border: 3px solid #ccc;
-      } */
-
 #address:focus {
     border: 3px solid rgba(119, 165, 250, 0.795);
     box-shadow: 10px 10px 5px rgb(138, 173, 196)
+} */
+
+#title {
+    text-transform: uppercase;
+    font-size: larger;
+}
+/* .container{
+    display: flex;
+} */
+.flex-container {
+    display: flex;
 }
 
-button {
-    background-color: #2386c9;
+.btn {
+    background-color: red;
     color: whitesmoke;
     padding: 12px 20px;
     margin-left: 10px;
     border: none;
     border-radius: 4px;
-    cursor: pointer;
 }
 
-button:hover {
-    background-color: rgba(52, 139, 221, 0.795);
+.green {
+    background-color: green;
 }
+label.flex-container{
+
+}
+
+
+
+
+
+
+/* #btn2 {
+    background-color: green;
+    color: whitesmoke;
+    padding: 12px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 4px;
+} */
+
+/* button:hover {
+    background-color: rgba(52, 139, 221, 0.795);
+} */
